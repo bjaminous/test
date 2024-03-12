@@ -1,0 +1,134 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: 0;
+    position: relative;
+    width: 1000px; /* Largeur */
+    height: 1000px; /*longueur*/
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: -50px;
+
+    
+}
+
+
+.menu {
+    width: 205px;
+    background-color: #afaeae;
+    position: absolute;
+    height: 80%;
+    margin: auto;
+}
+
+
+.menu h1 {
+
+    padding: 10px 20px;
+    color: #000000;
+    text-decoration: none;
+}
+.menu h2 {
+    float: left;
+    padding: 10px 10px;
+    color: #000000;
+    text-decoration: none;
+}
+.menu ul {
+    float: left;
+    padding: -5px -5px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.skill-bar {
+    width: 10%;
+    background: #f0efef;
+    margin: 10px;
+    height: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.skill-bar span {
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 5px;
+    background: #007bff;
+}
+
+
+
+.info, .skills {
+    margin-bottom: 20px;
+}
+
+.skills p {
+    margin-bottom: 10px;
+}
+.cv{
+    top: 0;
+}
+.cv img{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #faf7f7;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    position: absolute;
+    background-color: #969595;
+    color: #969595;
+    filter: grayscale(100%);
+    top: 0;
+    left: 0;
+    opacity: 1; /* Opacité de l'image */
+    z-index: 1; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 100px ;
+    padding: auto;
+    
+}
+
+.cv img:hover {
+    filter: none;
+  }
+
+
+.menu2 {
+    background-color: #2e2c2c;
+    overflow: hidden;
+    margin: auto;
+    height: auto;
+}
+
+.menu2 h1 {
+    float: center;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu2 p {
+    float: center;
+    display: block;
+    color: #fff;
+    text-align: center;
+}
+.content{
+    padding-left: 20px;
+}
+.content i{
+    font-size: 24px;
+    margin-right: 10px;
+    text-align: center;
+    float: center;
+}
+
+
+
+
+
